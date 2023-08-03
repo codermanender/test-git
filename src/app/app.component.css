@@ -1,0 +1,10 @@
+button {
+  margin: 12px;
+  border: 12px;
+  background-color: aquamarine;
+  padding: 5px 12px;
+  font-size: large;
+}
+button:hover {
+  background-color: cadetblue;
+}

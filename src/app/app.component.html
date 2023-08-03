@@ -1,0 +1,29 @@
+<div>
+  <label> Enter Name : </label>
+  <!-- <input type="text" #inputEL (blur)="Onsubmit(inputEL)">  this is for blur event binding -->
+  <!-- <input type="text" #inputEL (input)="Onsubmit(inputEL)"> -->
+  <!-- <input type="text" #inputEL (keyup)="Onsubmit(inputEL)">-->
+  <!-- <input type="text" #inputEL (keydown)="Onsubmit(inputEL)">-->
+  <!-- <input type="text" #inputEL (focus)="Onsubmit(inputEL)"> -->
+  <!-- <input type="text" #inputEL (mouseenter)="Onsubmit(inputEL)"> -->
+  <!-- <input type="text" #inputEL (keydown)="Onsubmit(inputEL)" >-->
+  <!-- <input type="text" #inputEL (keydown)="Onsubmit(inputEL)"> -->
+
+  <input type="text" #inputEL>
+  <button (click)="Onsubmit(inputEL)"> Submit </button>
+  <app-demo [name]="inputtext"></app-demo>
+</div>
+
+<!-- (click): Triggers the associated method when the element is clicked.
+(dblclick): Triggers the associated method when the element is double-clicked.
+(change): Triggers the associated method when the value of a form control changes.
+(input): Triggers the associated method when the user inputs data into a form control.
+(keydown): Triggers the associated method when a key is pressed down.
+(keyup): Triggers the associated method when a key is released.
+(focus): Triggers the associated method when an element gains focus.
+(blur): Triggers the associated method when an element loses focus.
+(mouseenter): Triggers the associated method when the mouse pointer enters the element.
+(mouseleave): Triggers the associated method when the mouse pointer leaves the element.
+(mouseover): Triggers the associated method when the mouse pointer is moved over the element.
+(mouseout): Triggers the associated method when the mouse pointer is moved out of the element.
+(submit): Triggers the associated method when a form is submitted. -->
